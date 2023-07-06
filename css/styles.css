@@ -1046,6 +1046,13 @@ footer {
     letter-spacing: 0.32px;
 }
 
+
+/**
+  |============================
+  | Modal Form
+  |============================
+*/
+
 .modal-form {}
 
 
@@ -1093,4 +1100,4 @@ footer {
     /* border-color: 1px solid var(--iris, #4D5AE5); */
 }
 
-/* .modal-form-button {} */
+.modal-form-button {}
