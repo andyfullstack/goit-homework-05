@@ -548,28 +548,26 @@
               rows="4"
               placeholder="Text input"
             ></textarea>
+          </div>
 
-            <div class="modal-form-cont-checkbox">
-              <label for="user-privacy" class="modal-form-agreement">
-                <input
-                  class="modal-form-checkbox visually-hidden"
-                  type="checkbox"
-                  id="user-privacy"
-                  value="true"
-                  name="user-privacy"
-                />
+          <div class="modal-form-cont-checkbox">
+            <input
+              class="modal-form-checkbox visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+            <label for="user-privacy" class="modal-form-agreement">
+              <span class="modal-form-custom-checkbox">
+                <svg class="modal-form-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#check"></use>
+                </svg>
+              </span>
 
-                <span class="modal-form-custom-checkbox">
-                  <svg class="modal-form-checkbox-icon" width="10" height="8">
-                    <use href="./images/icons.svg#check"></use>
-                  </svg>
-                </span>
-                <span class="modal-form-agreement-desc"
-                  >I accept the terms and conditions of the
-                  <a class="modal-form-link" href="#">Privacy Policy</a></span
-                >
-              </label>
-            </div>
+              I accept the terms and conditions of the
+              <a class="modal-form-link" href="#">Privacy Policy</a>
+            </label>
           </div>
 
           <button class="modal-form-button" type="submit">Send</button>
