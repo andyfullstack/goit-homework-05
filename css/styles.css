@@ -381,6 +381,12 @@ text-decoration: underline;
 
     border-radius: 4px;
     background-color: #f4f4fd;
+
+}
+
+.benefits-containet-item:hover,
+.benefits-containet-item:focus {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .benefits-title {
@@ -1149,11 +1155,10 @@ footer {
 
 
 
-.modal-form-field {
+/* .modal-form-field {
     display: block;
-    /* margin-bottom: 16px; */
-
-}
+    margin-bottom: 16px;
+} */
 
 .modal-form-label {
 
@@ -1174,7 +1179,7 @@ footer {
 
 .modal-form-input {
 
-    outline: none;
+
     padding: 11px 38px;
     width: 100%;
     height: 40px;
