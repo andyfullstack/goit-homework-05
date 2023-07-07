@@ -1115,7 +1115,7 @@ footer {
 }
 
 .modal-caption {
-    margin: 48px 24px 16px 8px;
+
     display: block;
     width: 360px;
     color: var(--navyblue, #2E2F42);
@@ -1134,7 +1134,9 @@ footer {
   |============================
 */
 
-.modal-form {}
+.modal-form {
+    margin: 72px 24px 24px 24px;
+}
 
 
 
