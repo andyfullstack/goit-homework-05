@@ -1050,7 +1050,7 @@ footer {
 }
 
 .modal {
-    padding: 24px;
+    margin: 72px 24px 24px 24px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1134,9 +1134,7 @@ footer {
   |============================
 */
 
-.modal-form {
-    margin: 72px 24px 24px 24px;
-}
+.modal-form {}
 
 
 
