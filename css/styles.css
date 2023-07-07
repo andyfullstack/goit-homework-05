@@ -1230,8 +1230,8 @@ footer {
     gap: 12px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 14px;
-    flex: 8px;
+    margin-top: 16px;
+
 }
 
 .modal-form-checkbox {}
