@@ -1138,6 +1138,7 @@ footer {
 
 .modal-container {
     margin-bottom: 8px;
+    position: relative;
 }
 
 .modal-form {}
@@ -1146,11 +1147,12 @@ footer {
 
 .modal-form-field {
     display: block;
-    margin-bottom: 16px;
-    position: relative;
+    /* margin-bottom: 16px; */
+
 }
 
 .modal-form-label {
+
     display: block;
     margin-bottom: 4px;
     color: var(--lightslate, #8E8F99);
@@ -1163,6 +1165,7 @@ footer {
 
 
 .modal-form-input {
+
     outline: none;
     font-size: 18px;
     padding: 11px 38px;
@@ -1177,8 +1180,6 @@ footer {
 
 .modal-form-input:focus {
     border-color: #4D5AE5;
-
-
 
 }
 
@@ -1198,7 +1199,7 @@ footer {
 /* .modal-form-button {} Same stile on the TOP  */
 
 .modal-form-button {
-    margin: 24px auto;
+    margin: 24px auto auto;
 }
 
 .modal-form-comment {
