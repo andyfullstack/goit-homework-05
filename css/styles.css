@@ -1049,8 +1049,9 @@ footer {
     visibility: hidden;
 }
 
+
 .modal {
-    margin: 72px 24px 24px 24px;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1114,8 +1115,24 @@ footer {
     fill: #ffffff;
 }
 
+
+
+
+/**
+  |============================
+  | Modal Form
+  |============================
+*/
+
+.modal-container {
+    margin: 72px 24px 24px 24px;
+}
+
+.modal-form {}
+
 .modal-caption {
 
+    margin-bottom: 16px;
     display: block;
     width: 360px;
     color: var(--navyblue, #2E2F42);
@@ -1126,16 +1143,6 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-
-
-/**
-  |============================
-  | Modal Form
-  |============================
-*/
-
-.modal-form {}
-
 
 
 .modal-form-field {
