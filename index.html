@@ -536,8 +536,8 @@
             </div>
           </div>
 
-          <div>
-            <label for="user-comment" class="modal-form-fiel modal-form-label"
+          <div class="modal-form-cont-comment">
+            <label for="user-comment" class="modal-form-label modal-form-field"
               >Comment
             </label>
 
@@ -548,11 +548,14 @@
               rows="4"
               placeholder="Text input"
             ></textarea>
-            <div>
-              <label class="modal-form-agreement">
+            <div class="modal-form-cont-checkbox">
+              <label for="user-privacy" class="modal-form-agreement">
                 <input
                   class="modal-form-checkbox visually-hidden"
                   type="checkbox"
+                  id="user-privacy"
+                  value="true"
+                  name="user-privacy"
                 />
                 <span class="modal-form-custom-checkbox">
                   <svg class="modal-form-checkbox-icon" width="10" height="8">
