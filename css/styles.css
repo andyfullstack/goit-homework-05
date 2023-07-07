@@ -792,7 +792,6 @@ footer {
     border-radius: 4px;
     border: 1px solid var(--white, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: #2E2F42;
     width: 264px;
     height: 40px;
     color: var(--white, #FFF);
@@ -1132,7 +1131,7 @@ footer {
 
 .modal-caption {
 
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     display: block;
     width: 360px;
     color: var(--navyblue, #2E2F42);
