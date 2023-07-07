@@ -1197,7 +1197,10 @@ footer {
 }
 
 /* .modal-form-button {} Same stile on the TOP  */
-.modal-form-button {}
+
+.modal-form-button {
+    margin: 24px auto;
+}
 
 .modal-form-comment {
 
