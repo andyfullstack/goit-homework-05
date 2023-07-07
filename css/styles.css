@@ -1256,10 +1256,14 @@ footer {
 
 .modal-form-agreement {
 
-    display: flex;
-    gap: 12px;
+    /* display: flex; */
+    /* gap: 12px; */
     justify-content: center;
     align-items: center;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
     margin-top: 16px;
 
 }
@@ -1267,20 +1271,28 @@ footer {
 .modal-form-checkbox {}
 
 .modal-form-custom-checkbox {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 16px;
     height: 16px;
     border-radius: 2px;
+    fill: transparent;
+
     border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 
 
 .modal-form-checkbox:checked+.modal-form-custom-checkbox {
 
-    border-color: rgba(46, 47, 66, 0.40);
+    border: none;
     background-color: #404BBF;
+    fill: #F4F4FD;
 
 
 }
