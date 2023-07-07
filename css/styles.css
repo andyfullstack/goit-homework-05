@@ -52,6 +52,7 @@ ol {
     margin: 0;
     padding: 0;
 
+
 }
 
 a {
@@ -66,6 +67,7 @@ h5,
 h6,
 p {
     margin: 0;
+
 }
 
 img {
@@ -75,6 +77,7 @@ img {
 }
 
 button {
+    outline: none;
     font-family: inherit;
     cursor: pointer;
     border: none;
@@ -107,10 +110,12 @@ button {
 
 .list {
     list-style: none;
+
 }
 
 .link {
     text-decoration: none;
+
 }
 
 .title-hidden {
@@ -140,7 +145,7 @@ button {
     letter-spacing: 0.02em;
     /* NAVY BLUE */
 
-    /* color: #404bbf; */
+    outline: none;
     color: #2E2F42;
 
     /* Автоперевірка - APPROVE */
@@ -245,7 +250,7 @@ text-decoration: underline;
 
 .header-address-link {
 
-
+    outline: none;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -305,14 +310,16 @@ text-decoration: underline;
 
 }
 
-.hero-btn {
+.hero-btn,
+.modal-form-button,
+.subscribe-form-button {
 
     padding: 16px 32px;
     margin-right: auto;
     margin-left: auto;
     min-width: 169px;
     display: block;
-    background: var(--iris-color);
+    background-color: #4D5AE5;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
@@ -329,9 +336,11 @@ text-decoration: underline;
 }
 
 .hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:focus,
+.modal-form-button:focus,
+.subscribe-form-button:focus {
     /* OCEAN */
-    background-color: var(--ocean-color);
+    background-color: #404BBF;
 
 
 }
@@ -362,12 +371,14 @@ text-decoration: underline;
 
 .benefits-containet-item {
 
+
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
     /* width: 264px; */
     height: 112px;
+
     border-radius: 4px;
     background-color: #f4f4fd;
 }
@@ -503,7 +514,7 @@ text-decoration: underline;
 }
 
 .team-social-link {
-    display: flex;
+    outline: none;
     width: 100%;
     height: 100%;
     display: flex;
@@ -546,8 +557,6 @@ text-decoration: underline;
 .team-title-member {
 
     text-align: center;
-
-
     /* margin-top: 32px; */
     margin-bottom: 8px;
     text-align: center;
@@ -607,9 +616,11 @@ text-decoration: underline;
     justify-content: center;
     align-items: center;
 
+
 }
 
 .customer-link {
+    outline: none;
     width: 100%;
     height: 100%;
     border: 1px solid #8e8f99;
@@ -665,9 +676,6 @@ text-decoration: underline;
 
 
 .customer-logo {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     fill: currentColor;
 
 }
@@ -754,6 +762,66 @@ footer {
 
     background-color: #31d0aa;
 }
+
+/**
+  |============================
+  | Footer Subscribe Form
+  |============================
+*/
+
+.footer-sibscribe {
+
+    margin-left: 80px;
+
+}
+
+.subscribe-item {}
+
+.subscribe-form {}
+
+.subscribe-form-label {}
+
+.subscribe-form-imput {
+
+    border-radius: 4px;
+    border: 1px solid var(--white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: #2E2F42;
+    width: 264px;
+    height: 40px;
+
+
+}
+
+.subscribe-form-imput::placeholder {
+    justify-content: center;
+    align-items: center;
+    color: var(--white, #FFF);
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 2px;
+    letter-spacing: 0.48px;
+    padding: 8px 16px;
+
+
+}
+
+.subscribe-form-button {
+    display: inline-flex;
+    padding: 8px 24px;
+    max-width: 165px;
+    margin-left: 18px;
+    gap: 16px;
+
+}
+
+.subscribe-form-icon {
+    display: flex;
+
+
+}
+
+
 
 /**
   |============================
@@ -1034,7 +1102,7 @@ footer {
 }
 
 .modal-caption {
-    margin: 72px 24px 16px 8px;
+    margin: 48px 24px 16px 8px;
     display: block;
     width: 360px;
     color: var(--navyblue, #2E2F42);
@@ -1059,7 +1127,7 @@ footer {
 
 .modal-form-field {
     display: block;
-    margin-bottom: 26px;
+    margin-bottom: 16px;
     position: relative;
 }
 
@@ -1071,22 +1139,27 @@ footer {
     font-family: Roboto;
     line-height: 14px;
     letter-spacing: 0.48px;
+
 }
 
 
 .modal-form-input {
+    outline: none;
     font-size: 18px;
     padding: 11px 38px;
     width: 100%;
     height: 40px;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.40);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
 
 }
 
 .modal-form-input:focus {
     border-color: #4D5AE5;
+
+
 
 }
 
@@ -1095,6 +1168,7 @@ footer {
     position: absolute;
     left: 16px;
     bottom: 8px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus+.modal-form-icon {
@@ -1102,4 +1176,96 @@ footer {
     /* border-color: 1px solid var(--iris, #4D5AE5); */
 }
 
+/* .modal-form-button {} Same stile on the TOP  */
 .modal-form-button {}
+
+.modal-form-comment {
+
+    width: 360px;
+    height: 120px;
+    padding-left: 16px;
+    padding-top: 8px;
+    resize: none;
+    outline: transparent;
+    border-radius: 4px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+}
+
+.modal-form-comment::placeholder {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+    color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+}
+
+/* CHECKPOX  */
+
+.modal-form-agreement {
+
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+    flex: 8px;
+}
+
+.modal-form-checkbox {}
+
+.modal-form-custom-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+}
+
+
+.modal-form-checkbox:checked+.modal-form-custom-checkbox {
+
+    border-color: rgba(46, 47, 66, 0.40);
+    background-color: #404BBF;
+
+
+}
+
+.modal-form-checkbox-icon {
+    opacity: 0;
+
+    transform: scale(0);
+}
+
+.modal-form-checkbox:checked+.modal-form-custom-checkbox .modal-form-checkbox-icon {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-agreement-desc {
+
+    /* display: flex; */
+    width: 338px;
+    flex-direction: row;
+
+
+    color: #8E8F99;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+}
+
+.modal-form-link {
+    /* display: flex; */
+    flex-direction: row;
+
+
+    color: #4D5AE5;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+}
