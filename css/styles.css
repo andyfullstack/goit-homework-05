@@ -1217,14 +1217,16 @@ footer {
 
 .modal-form-comment {
 
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 12px;
     width: 360px;
     height: 120px;
     padding: 8px 16px;
 
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(40, 40, 43);
+    /* color: rgba(40, 40, 43); */
+    color: rgba(46, 47, 66, 0.4);
     resize: none;
     outline: transparent;
     background-color: transparent;
