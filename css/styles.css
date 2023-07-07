@@ -1138,6 +1138,10 @@ footer {
 
 .modal-container {
     margin-bottom: 8px;
+
+}
+
+.modal-input-container {
     position: relative;
 }
 
@@ -1158,7 +1162,7 @@ footer {
     color: var(--lightslate, #8E8F99);
     font-size: 12px;
     font-family: Roboto;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.48px;
 
 }
