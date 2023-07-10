@@ -786,7 +786,7 @@ footer {
 .subscribe-form {
 
     display: flex;
-    gap: 24px;
+
 }
 
 .subscribe-form-label {}
@@ -1273,6 +1273,7 @@ footer {
 .modal-form-checkbox {}
 
 .modal-form-custom-checkbox {
+    margin-right: 8px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
